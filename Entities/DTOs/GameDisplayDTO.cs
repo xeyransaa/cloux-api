@@ -19,7 +19,9 @@ namespace Entities.DTOs
 
         public string MainPhotoUrl { get; set; }
         public string SmallPhotoUrl { get; set; }
-        public DateOnly ReleaseDate { get; set; }
+        public string ReleaseMonth { get; set; }
+        public int ReleaseDay { get; set; }
+        public int ReleaseYear { get; set; }
         public float OriginalPrice { get; set; }
         public float DiscountedPrice { get; set; }
         public List<string> DeveloperNames { get; set; }
@@ -32,7 +34,8 @@ namespace Entities.DTOs
         public string YoutubeLink { get; set; }
         public string TwitchLink { get; set; }
         public string InstagramLink { get; set; }
+   
 
 
-    }
+        }
 }

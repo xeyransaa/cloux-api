@@ -23,6 +23,9 @@ namespace Entities.DTOs
 
         public virtual List<int> MinimumOSReqsIds { get; set; }
         public virtual List<int> RecommendedOSReqsIds { get; set; }
+        public virtual List<int> AudioLanguagesIds { get; set; }
+        public virtual List<int> InterfaceLanguagesIds { get; set; }
+        public virtual List<int> SubtitleLanguagesIds { get; set; }
         public string? AdditionalNotes { get; set; }
         public string? FacebookLink { get; set; }
         public string? TwitterLink { get; set; }

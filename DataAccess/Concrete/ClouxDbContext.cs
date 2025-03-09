@@ -78,6 +78,8 @@ namespace DataAccess.Concrete
                 .WithMany(gp => gp.LanguageTypeLs)
                 .HasForeignKey(gp => gp.LanguageTypeId);
 
+
+
         }
         public DbSet<Game> Games { get; set; }
         public DbSet<Category> Categories { get; set; }

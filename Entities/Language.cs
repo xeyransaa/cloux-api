@@ -15,6 +15,7 @@ namespace Entities
 
         public virtual List<LanguageTypeL>? LanguageTypeLs { get; set; }
         public virtual List<GameLanguageTypeL>? GameLanguageTypeLs { get; set; }
+      
 
     }
 }

@@ -35,6 +35,8 @@ namespace Entities
         public string? YoutubeLink { get; set; }
         public string? TwitchLink { get; set; }
         public string? InstagramLink { get; set; }
+      
+
 
     }
 }
