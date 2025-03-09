@@ -28,6 +28,11 @@ namespace Business.Concrete
             return _dal.GetGames();
         }
 
+        public List<Game> GetGamesByPage(int pageNumber, int gamesPerPage)
+        {
+            return _dal.GetGamesByPage(pageNumber, gamesPerPage);
+        }
+
         public List<Game> GetFeaturedGames()
         {
             return _dal.GetFeaturedGames();

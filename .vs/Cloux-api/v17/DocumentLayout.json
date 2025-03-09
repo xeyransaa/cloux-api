@@ -3,72 +3,468 @@
   "WorkspaceRootPath": "D:\\Programming\\C# projects\\Cloux-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\dtos\\gameoutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\gameoutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240711104840_f.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccess\\Migrations\\20240711104840_f.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\concrete\\clouxdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\clouxdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C024866F-5487-462A-9A40-B094E3534D38}|ClouxApi\\ClouxApi.csproj|d:\\programming\\c# projects\\cloux-api\\clouxapi\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C024866F-5487-462A-9A40-B094E3534D38}|ClouxApi\\ClouxApi.csproj|solutionrelative:clouxapi\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\profilers\\gamelistprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\profilers\\gamelistprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240711101646_d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccess\\Migrations\\20240711101646_d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|d:\\programming\\c# projects\\cloux-api\\business\\concrete\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|solutionrelative:business\\concrete\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|d:\\programming\\c# projects\\cloux-api\\business\\abstract\\igamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|solutionrelative:business\\abstract\\igamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\dtos\\gamedisplaydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\gamedisplaydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\concrete\\efgamedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\efgamedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|d:\\programming\\c# projects\\cloux-api\\business\\concrete\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|solutionrelative:business\\concrete\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\profilers\\languageprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\profilers\\languageprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\dtos\\languagedisplaydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\languagedisplaydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\dtos\\languageinputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\languageinputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\concrete\\clouxdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\clouxdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\gamelanguagetypel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\gamelanguagetypel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\dtos\\gameinputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\gameinputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\osreqs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\osreqs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\os.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\os.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\systemreqs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\systemreqs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\profilers\\gameinputprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\profilers\\gameinputprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C024866F-5487-462A-9A40-B094E3534D38}|ClouxApi\\ClouxApi.csproj|d:\\programming\\c# projects\\cloux-api\\clouxapi\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C024866F-5487-462A-9A40-B094E3534D38}|ClouxApi\\ClouxApi.csproj|solutionrelative:clouxapi\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\concrete\\efgamedeveloperdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\efgamedeveloperdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\concrete\\efgamelanguagetypeldal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\efgamelanguagetypeldal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\abstract\\igamedeveloperdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\igamedeveloperdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\abstract\\igamedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\igamedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\platform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\platform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C024866F-5487-462A-9A40-B094E3534D38}|ClouxApi\\ClouxApi.csproj|d:\\programming\\c# projects\\cloux-api\\clouxapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C024866F-5487-462A-9A40-B094E3534D38}|ClouxApi\\ClouxApi.csproj|solutionrelative:clouxapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|d:\\programming\\c# projects\\cloux-api\\business\\concrete\\gamedevelopermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|solutionrelative:business\\concrete\\gamedevelopermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|d:\\programming\\c# projects\\cloux-api\\business\\concrete\\gameplatformmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|solutionrelative:business\\concrete\\gameplatformmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|d:\\programming\\c# projects\\cloux-api\\business\\abstract\\igamedevelopermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|solutionrelative:business\\abstract\\igamedevelopermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|d:\\programming\\c# projects\\cloux-api\\business\\abstract\\igameplatformmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|solutionrelative:business\\abstract\\igameplatformmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\concrete\\efgameplatformdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\efgameplatformdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\abstract\\igameplatformdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\igameplatformdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|d:\\programming\\c# projects\\cloux-api\\business\\concrete\\gamelanguagetypelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|solutionrelative:business\\concrete\\gamelanguagetypelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\languagetypel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\languagetypel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\abstract\\igamelanguagetypeldal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\igamelanguagetypeldal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|d:\\programming\\c# projects\\cloux-api\\business\\abstract\\igamelanguagetypelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|solutionrelative:business\\abstract\\igamelanguagetypelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\languagetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\languagetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\gameplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\gameplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\developer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\developer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\platform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\platform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\gamedeveloper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\gamedeveloper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C024866F-5487-462A-9A40-B094E3534D38}|ClouxApi\\ClouxApi.csproj|d:\\programming\\c# projects\\cloux-api\\clouxapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C024866F-5487-462A-9A40-B094E3534D38}|ClouxApi\\ClouxApi.csproj|solutionrelative:clouxapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|d:\\programming\\c# projects\\cloux-api\\business\\abstract\\igamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|solutionrelative:business\\abstract\\igamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C024866F-5487-462A-9A40-B094E3534D38}|ClouxApi\\ClouxApi.csproj|d:\\programming\\c# projects\\cloux-api\\clouxapi\\controllers\\socialmediacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C024866F-5487-462A-9A40-B094E3534D38}|ClouxApi\\ClouxApi.csproj|solutionrelative:clouxapi\\controllers\\socialmediacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C024866F-5487-462A-9A40-B094E3534D38}|ClouxApi\\ClouxApi.csproj|d:\\programming\\c# projects\\cloux-api\\clouxapi\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C024866F-5487-462A-9A40-B094E3534D38}|ClouxApi\\ClouxApi.csproj|solutionrelative:clouxapi\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C024866F-5487-462A-9A40-B094E3534D38}|ClouxApi\\ClouxApi.csproj|d:\\programming\\c# projects\\cloux-api\\clouxapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C024866F-5487-462A-9A40-B094E3534D38}|ClouxApi\\ClouxApi.csproj|solutionrelative:clouxapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|d:\\programming\\c# projects\\cloux-api\\business\\abstract\\imessagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|solutionrelative:business\\abstract\\imessagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|d:\\programming\\c# projects\\cloux-api\\business\\concrete\\messagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|solutionrelative:business\\concrete\\messagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|d:\\programming\\c# projects\\cloux-api\\business\\concrete\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|solutionrelative:business\\concrete\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|d:\\programming\\c# projects\\cloux-api\\business\\abstract\\icategorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|solutionrelative:business\\abstract\\icategorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\abstract\\imessagedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\imessagedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\concrete\\efmessagedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\efmessagedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\concrete\\efcategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\efcategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\abstract\\icategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\icategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\profilers\\platformprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\profilers\\platformprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\concrete\\efgamecategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\efgamecategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\dtos\\categorydisplaydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\categorydisplaydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\dtos\\platformdisplaydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\platformdisplaydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\profilers\\categoryprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\profilers\\categoryprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\concrete\\efplatformdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\efplatformdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\gamecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\gamecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|d:\\programming\\c# projects\\cloux-api\\business\\abstract\\igamecategorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|solutionrelative:business\\abstract\\igamecategorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C024866F-5487-462A-9A40-B094E3534D38}|ClouxApi\\ClouxApi.csproj|d:\\programming\\c# projects\\cloux-api\\clouxapi\\controllers\\platformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C024866F-5487-462A-9A40-B094E3534D38}|ClouxApi\\ClouxApi.csproj|solutionrelative:clouxapi\\controllers\\platformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C024866F-5487-462A-9A40-B094E3534D38}|ClouxApi\\ClouxApi.csproj|d:\\programming\\c# projects\\cloux-api\\clouxapi\\controllers\\languagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C024866F-5487-462A-9A40-B094E3534D38}|ClouxApi\\ClouxApi.csproj|solutionrelative:clouxapi\\controllers\\languagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|d:\\programming\\c# projects\\cloux-api\\business\\concrete\\platformmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|solutionrelative:business\\concrete\\platformmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\abstract\\iplatformdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\iplatformdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|d:\\programming\\c# projects\\cloux-api\\business\\abstract\\iplatformmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|solutionrelative:business\\abstract\\iplatformmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\profilers\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\profilers\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA658662-9A05-4F98-96ED-C1BA35A387F9}|Core\\Core.csproj|d:\\programming\\c# projects\\cloux-api\\core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CA658662-9A05-4F98-96ED-C1BA35A387F9}|Core\\Core.csproj|solutionrelative:core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|d:\\programming\\c# projects\\cloux-api\\business\\concrete\\tokenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|solutionrelative:business\\concrete\\tokenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C024866F-5487-462A-9A40-B094E3534D38}|ClouxApi\\ClouxApi.csproj|d:\\programming\\c# projects\\cloux-api\\clouxapi\\clouxapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{C024866F-5487-462A-9A40-B094E3534D38}|ClouxApi\\ClouxApi.csproj|solutionrelative:clouxapi\\clouxapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\migrations\\20240709173816_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20240709173816_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\migrations\\20241229225750_smallphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20241229225750_smallphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C024866F-5487-462A-9A40-B094E3534D38}|ClouxApi\\ClouxApi.csproj|d:\\programming\\c# projects\\cloux-api\\clouxapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C024866F-5487-462A-9A40-B094E3534D38}|ClouxApi\\ClouxApi.csproj|solutionrelative:clouxapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{C024866F-5487-462A-9A40-B094E3534D38}|ClouxApi\\ClouxApi.csproj|d:\\programming\\c# projects\\cloux-api\\clouxapi\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C024866F-5487-462A-9A40-B094E3534D38}|ClouxApi\\ClouxApi.csproj|solutionrelative:clouxapi\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\migrations\\20240726212652_ndkkd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20240726212652_ndkkd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\migrations\\20240725142429_jdsk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20240725142429_jdsk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C024866F-5487-462A-9A40-B094E3534D38}|ClouxApi\\ClouxApi.csproj|d:\\programming\\c# projects\\cloux-api\\clouxapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C024866F-5487-462A-9A40-B094E3534D38}|ClouxApi\\ClouxApi.csproj|solutionrelative:clouxapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|d:\\programming\\c# projects\\cloux-api\\business\\concrete\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|solutionrelative:business\\concrete\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|d:\\programming\\c# projects\\cloux-api\\business\\abstract\\iproductmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|solutionrelative:business\\abstract\\iproductmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\concrete\\efproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\efproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\abstract\\iproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\iproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\profilers\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\profilers\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\dtos\\bloginputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\bloginputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\dtos\\blogdisplaydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\blogdisplaydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\profilers\\blogprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\profilers\\blogprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|d:\\programming\\c# projects\\cloux-api\\business\\concrete\\blogmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|solutionrelative:business\\concrete\\blogmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|d:\\programming\\c# projects\\cloux-api\\business\\abstract\\iblogmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|solutionrelative:business\\abstract\\iblogmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\concrete\\efblogdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\efblogdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\abstract\\iblogdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\iblogdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\blogcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\blogcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|d:\\programming\\c# projects\\cloux-api\\business\\concrete\\languagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|solutionrelative:business\\concrete\\languagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|d:\\programming\\c# projects\\cloux-api\\business\\abstract\\ilanguagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|solutionrelative:business\\abstract\\ilanguagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\concrete\\eflanguagedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\eflanguagedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\abstract\\ilanguagedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\ilanguagedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\migrations\\20240724205654_p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20240724205654_p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\dtos\\categoryinputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\categoryinputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\migrations\\20240722191523_o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20240722191523_o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\dtos\\platforminputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\platforminputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|d:\\programming\\c# projects\\cloux-api\\business\\concrete\\socialmediamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|solutionrelative:business\\concrete\\socialmediamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|d:\\programming\\c# projects\\cloux-api\\business\\abstract\\isocialmediamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|solutionrelative:business\\abstract\\isocialmediamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\concrete\\efsocialmediadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\efsocialmediadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\dtos\\sminputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\sminputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\profilers\\smprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\profilers\\smprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\dtos\\smdisplaydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\smdisplaydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\abstract\\isocialmediadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\isocialmediadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|d:\\programming\\c# projects\\cloux-api\\entities\\socialmedia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE433AC-1D13-4063-8B5D-6370AE7F4903}|Entities\\Entities.csproj|solutionrelative:entities\\socialmedia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|d:\\programming\\c# projects\\cloux-api\\business\\concrete\\gamecategorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72580DC-5097-4618-A331-29471592F50F}|Business\\Business.csproj|solutionrelative:business\\concrete\\gamecategorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\abstract\\igamecategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\igamecategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\migrations\\20240715180508_r.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20240715180508_r.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA658662-9A05-4F98-96ED-C1BA35A387F9}|Core\\Core.csproj|d:\\programming\\c# projects\\cloux-api\\core\\dataaccess\\ef\\efentityrepositary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA658662-9A05-4F98-96ED-C1BA35A387F9}|Core\\Core.csproj|solutionrelative:core\\dataaccess\\ef\\efentityrepositary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\migrations\\20240711200816_g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20240711200816_g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\migrations\\20240709173816_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20240709173816_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\migrations\\20240709190404_b.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -89,6 +485,78 @@
     {
       "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\migrations\\20240710173014_c.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20240710173014_c.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\migrations\\20240711104840_f.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20240711104840_f.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\migrations\\20240711101646_d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20240711101646_d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\migrations\\20240717164135_i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20240717164135_i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\migrations\\20240717150015_u.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20240717150015_u.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\migrations\\20240717143432_y.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20240717143432_y.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\migrations\\20240717101445_t.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20240717101445_t.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\migrations\\20240725135808_jdsj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20240725135808_jdsj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\migrations\\20240725115230_jsj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20240725115230_jsj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\migrations\\20240725112947_sa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20240725112947_sa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\migrations\\20240726211705_nsek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20240726211705_nsek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\migrations\\20250225190320_aad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20250225190320_aad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\migrations\\20250301050614_dsdj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20250301050614_dsdj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\migrations\\20250301044022_ajdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20250301044022_ajdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\migrations\\20250301004626_skjd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20250301004626_skjd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\migrations\\20250301003529_new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20250301003529_new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\migrations\\20250302054636_kddjf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20250302054636_kddjf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\migrations\\20250302053602_sksd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20250302053602_sksd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|d:\\programming\\c# projects\\cloux-api\\dataaccess\\migrations\\20250302004735_kdd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA5B60D-F282-4CD2-8F4B-9281626E9763}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20250302004735_kdd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,24 +566,1584 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20240711104840_f.cs",
-              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240711104840_f.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20240711104840_f.cs",
-              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240711104840_f.cs",
-              "RelativeToolTip": "DataAccess\\Migrations\\20240711104840_f.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 136,
+              "Title": "20250302054636_kddjf.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20250302054636_kddjf.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20250302054636_kddjf.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20250302054636_kddjf.cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\20250302054636_kddjf.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T10:48:40.296Z",
+              "WhenOpened": "2025-03-02T05:46:37.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LanguageInputDto.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\DTOs\\LanguageInputDto.cs",
+              "RelativeDocumentMoniker": "Entities\\DTOs\\LanguageInputDto.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\DTOs\\LanguageInputDto.cs",
+              "RelativeToolTip": "Entities\\DTOs\\LanguageInputDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T05:40:59.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameDisplayDTO.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\DTOs\\GameDisplayDTO.cs",
+              "RelativeDocumentMoniker": "Entities\\DTOs\\GameDisplayDTO.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\DTOs\\GameDisplayDTO.cs",
+              "RelativeToolTip": "Entities\\DTOs\\GameDisplayDTO.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA5wBEAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T19:22:48.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameListProfile.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Profilers\\GameListProfile.cs",
+              "RelativeDocumentMoniker": "Entities\\Profilers\\GameListProfile.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Profilers\\GameListProfile.cs",
+              "RelativeToolTip": "Entities\\Profilers\\GameListProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T19:27:57.518Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "LanguageDisplayDto.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\DTOs\\LanguageDisplayDto.cs",
+              "RelativeDocumentMoniker": "Entities\\DTOs\\LanguageDisplayDto.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\DTOs\\LanguageDisplayDto.cs",
+              "RelativeToolTip": "Entities\\DTOs\\LanguageDisplayDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T11:15:27.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Concrete\\GameManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\GameManager.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Concrete\\GameManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\GameManager.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAmwB8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T16:06:20.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EFGameDal.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Concrete\\EFGameDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EFGameDal.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Concrete\\EFGameDal.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EFGameDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T15:50:16.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 137,
+              "Title": "20250302053602_sksd.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20250302053602_sksd.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20250302053602_sksd.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20250302053602_sksd.cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\20250302053602_sksd.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T05:36:03.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LanguageProfile.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Profilers\\LanguageProfile.cs",
+              "RelativeDocumentMoniker": "Entities\\Profilers\\LanguageProfile.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Profilers\\LanguageProfile.cs",
+              "RelativeToolTip": "Entities\\Profilers\\LanguageProfile.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T11:16:05.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Language.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Language.cs",
+              "RelativeDocumentMoniker": "Entities\\Language.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Language.cs",
+              "RelativeToolTip": "Entities\\Language.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T11:14:35.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GameLanguageTypeL.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\GameLanguageTypeL.cs",
+              "RelativeDocumentMoniker": "Entities\\GameLanguageTypeL.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\GameLanguageTypeL.cs",
+              "RelativeToolTip": "Entities\\GameLanguageTypeL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T05:02:53.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GameInputDTO.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\DTOs\\GameInputDTO.cs",
+              "RelativeDocumentMoniker": "Entities\\DTOs\\GameInputDTO.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\DTOs\\GameInputDTO.cs",
+              "RelativeToolTip": "Entities\\DTOs\\GameInputDTO.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAuwBkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T15:48:52.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Game.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Game.cs",
+              "RelativeDocumentMoniker": "Entities\\Game.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Game.cs",
+              "RelativeToolTip": "Entities\\Game.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAABwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T16:02:23.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClouxDbContext.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Concrete\\ClouxDbContext.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\ClouxDbContext.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Concrete\\ClouxDbContext.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\ClouxDbContext.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAowGcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T17:49:49.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OSReqs.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\OSReqs.cs",
+              "RelativeDocumentMoniker": "Entities\\OSReqs.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\OSReqs.cs",
+              "RelativeToolTip": "Entities\\OSReqs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T05:16:27.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OS.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\OS.cs",
+              "RelativeDocumentMoniker": "Entities\\OS.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\OS.cs",
+              "RelativeToolTip": "Entities\\OS.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T05:15:39.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SystemReqs.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\SystemReqs.cs",
+              "RelativeDocumentMoniker": "Entities\\SystemReqs.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\SystemReqs.cs",
+              "RelativeToolTip": "Entities\\SystemReqs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T05:08:55.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GameController.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\ClouxApi\\Controllers\\GameController.cs",
+              "RelativeDocumentMoniker": "ClouxApi\\Controllers\\GameController.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\ClouxApi\\Controllers\\GameController.cs",
+              "RelativeToolTip": "ClouxApi\\Controllers\\GameController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAmwKMAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T16:18:56.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 138,
+              "Title": "20250302004735_kdd.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20250302004735_kdd.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20250302004735_kdd.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20250302004735_kdd.cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\20250302004735_kdd.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T00:47:35.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GameInputProfile.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Profilers\\GameInputProfile.cs",
+              "RelativeDocumentMoniker": "Entities\\Profilers\\GameInputProfile.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Profilers\\GameInputProfile.cs",
+              "RelativeToolTip": "Entities\\Profilers\\GameInputProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T15:52:17.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EFGameDeveloperDal.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Concrete\\EFGameDeveloperDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EFGameDeveloperDal.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Concrete\\EFGameDeveloperDal.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EFGameDeveloperDal.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAswBgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T00:22:23.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IGameDeveloperDal.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Abstract\\IGameDeveloperDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstract\\IGameDeveloperDal.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Abstract\\IGameDeveloperDal.cs",
+              "RelativeToolTip": "DataAccess\\Abstract\\IGameDeveloperDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T00:21:24.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IGameDal.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Abstract\\IGameDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstract\\IGameDal.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Abstract\\IGameDal.cs",
+              "RelativeToolTip": "DataAccess\\Abstract\\IGameDal.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBIAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T15:49:42.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EFGameLanguageTypeLDal.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Concrete\\EFGameLanguageTypeLDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EFGameLanguageTypeLDal.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Concrete\\EFGameLanguageTypeLDal.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EFGameLanguageTypeLDal.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAADwvxgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T05:20:30.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\ClouxApi\\Program.cs",
+              "RelativeDocumentMoniker": "ClouxApi\\Program.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\ClouxApi\\Program.cs",
+              "RelativeToolTip": "ClouxApi\\Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAC4AAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T21:01:17.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GameDeveloperManager.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Concrete\\GameDeveloperManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\GameDeveloperManager.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Concrete\\GameDeveloperManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\GameDeveloperManager.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T00:25:45.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IGameDeveloperManager.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Abstract\\IGameDeveloperManager.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IGameDeveloperManager.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Abstract\\IGameDeveloperManager.cs",
+              "RelativeToolTip": "Business\\Abstract\\IGameDeveloperManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T00:24:58.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EFGamePlatformDal.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Concrete\\EFGamePlatformDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EFGamePlatformDal.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Concrete\\EFGamePlatformDal.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EFGamePlatformDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T17:11:56.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GamePlatformManager.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Concrete\\GamePlatformManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\GamePlatformManager.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Concrete\\GamePlatformManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\GamePlatformManager.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAewBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T17:58:13.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IGamePlatformManager.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Abstract\\IGamePlatformManager.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IGamePlatformManager.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Abstract\\IGamePlatformManager.cs",
+              "RelativeToolTip": "Business\\Abstract\\IGamePlatformManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T17:04:09.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IGamePlatformDal.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Abstract\\IGamePlatformDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstract\\IGamePlatformDal.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Abstract\\IGamePlatformDal.cs",
+              "RelativeToolTip": "DataAccess\\Abstract\\IGamePlatformDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T17:10:46.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "GameLanguageTypeLManager.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Concrete\\GameLanguageTypeLManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\GameLanguageTypeLManager.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Concrete\\GameLanguageTypeLManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\GameLanguageTypeLManager.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAmwBYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T05:16:37.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LanguageTypeL.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\LanguageTypeL.cs",
+              "RelativeDocumentMoniker": "Entities\\LanguageTypeL.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\LanguageTypeL.cs",
+              "RelativeToolTip": "Entities\\LanguageTypeL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T04:37:15.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IGameLanguageTypeLDal.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Abstract\\IGameLanguageTypeLDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstract\\IGameLanguageTypeLDal.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Abstract\\IGameLanguageTypeLDal.cs",
+              "RelativeToolTip": "DataAccess\\Abstract\\IGameLanguageTypeLDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T05:19:22.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IGameLanguageTypeLManager.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Abstract\\IGameLanguageTypeLManager.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IGameLanguageTypeLManager.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Abstract\\IGameLanguageTypeLManager.cs",
+              "RelativeToolTip": "Business\\Abstract\\IGameLanguageTypeLManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T05:14:40.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 132,
+              "Title": "20250301050614_dsdj.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20250301050614_dsdj.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20250301050614_dsdj.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20250301050614_dsdj.cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\20250301050614_dsdj.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T05:06:14.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LanguageType.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\LanguageType.cs",
+              "RelativeDocumentMoniker": "Entities\\LanguageType.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\LanguageType.cs",
+              "RelativeToolTip": "Entities\\LanguageType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T00:43:58.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 133,
+              "Title": "20250301044022_ajdf.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20250301044022_ajdf.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20250301044022_ajdf.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20250301044022_ajdf.cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\20250301044022_ajdf.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T04:40:22.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 134,
+              "Title": "20250301004626_skjd.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20250301004626_skjd.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20250301004626_skjd.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20250301004626_skjd.cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\20250301004626_skjd.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T00:46:26.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 135,
+              "Title": "20250301003529_new.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20250301003529_new.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20250301003529_new.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20250301003529_new.cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\20250301003529_new.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T00:35:30.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "GamePlatform.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\GamePlatform.cs",
+              "RelativeDocumentMoniker": "Entities\\GamePlatform.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\GamePlatform.cs",
+              "RelativeToolTip": "Entities\\GamePlatform.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T17:05:13.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Developer.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Developer.cs",
+              "RelativeDocumentMoniker": "Entities\\Developer.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Developer.cs",
+              "RelativeToolTip": "Entities\\Developer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T00:28:57.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "GameDeveloper.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\GameDeveloper.cs",
+              "RelativeDocumentMoniker": "Entities\\GameDeveloper.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\GameDeveloper.cs",
+              "RelativeToolTip": "Entities\\GameDeveloper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T00:28:12.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\ClouxApi\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ClouxApi\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\ClouxApi\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ClouxApi\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAuwDkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T07:34:44.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Platform.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Platform.cs",
+              "RelativeDocumentMoniker": "Entities\\Platform.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Platform.cs",
+              "RelativeToolTip": "Entities\\Platform.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T10:04:45.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IGameManager.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Abstract\\IGameManager.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IGameManager.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Abstract\\IGameManager.cs",
+              "RelativeToolTip": "Business\\Abstract\\IGameManager.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T16:05:55.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "UserLoginDto.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\DTOs\\UserLoginDto.cs",
+              "RelativeDocumentMoniker": "Entities\\DTOs\\UserLoginDto.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\DTOs\\UserLoginDto.cs",
+              "RelativeToolTip": "Entities\\DTOs\\UserLoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T09:06:42.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "EFMessageDal.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Concrete\\EFMessageDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EFMessageDal.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Concrete\\EFMessageDal.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EFMessageDal.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAgwDYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T19:05:51.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "IMessageDal.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Abstract\\IMessageDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstract\\IMessageDal.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Abstract\\IMessageDal.cs",
+              "RelativeToolTip": "DataAccess\\Abstract\\IMessageDal.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T19:04:07.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IMessageManager.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Abstract\\IMessageManager.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IMessageManager.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Abstract\\IMessageManager.cs",
+              "RelativeToolTip": "Business\\Abstract\\IMessageManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T19:10:23.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "MessageManager.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Concrete\\MessageManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\MessageManager.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Concrete\\MessageManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\MessageManager.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwCcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T19:11:47.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "MessageController.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\ClouxApi\\Controllers\\MessageController.cs",
+              "RelativeDocumentMoniker": "ClouxApi\\Controllers\\MessageController.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\ClouxApi\\Controllers\\MessageController.cs",
+              "RelativeToolTip": "ClouxApi\\Controllers\\MessageController.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAzwGQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T19:14:50.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "SocialMediaController.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\ClouxApi\\Controllers\\SocialMediaController.cs",
+              "RelativeDocumentMoniker": "ClouxApi\\Controllers\\SocialMediaController.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\ClouxApi\\Controllers\\SocialMediaController.cs",
+              "RelativeToolTip": "ClouxApi\\Controllers\\SocialMediaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T16:51:52.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 131,
+              "Title": "20250225190320_aad.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20250225190320_aad.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20250225190320_aad.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20250225190320_aad.cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\20250225190320_aad.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T19:03:20.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\ClouxApi\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "ClouxApi\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\ClouxApi\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "ClouxApi\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAwDkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T20:46:26.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Message.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Message.cs",
+              "RelativeDocumentMoniker": "Entities\\Message.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Message.cs",
+              "RelativeToolTip": "Entities\\Message.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T18:57:43.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CategoryManager.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Concrete\\CategoryManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\CategoryManager.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Concrete\\CategoryManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\CategoryManager.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwCQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T20:42:43.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ICategoryManager.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Abstract\\ICategoryManager.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\ICategoryManager.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Abstract\\ICategoryManager.cs",
+              "RelativeToolTip": "Business\\Abstract\\ICategoryManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T20:41:28.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "EFGameCategoryDal.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Concrete\\EFGameCategoryDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EFGameCategoryDal.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Concrete\\EFGameCategoryDal.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EFGameCategoryDal.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwCAAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T16:44:17.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "EFCategoryDal.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Concrete\\EFCategoryDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EFCategoryDal.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Concrete\\EFCategoryDal.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EFCategoryDal.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwCEAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T20:35:43.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "CategoryDisplayDto.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\DTOs\\CategoryDisplayDto.cs",
+              "RelativeDocumentMoniker": "Entities\\DTOs\\CategoryDisplayDto.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\DTOs\\CategoryDisplayDto.cs",
+              "RelativeToolTip": "Entities\\DTOs\\CategoryDisplayDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T20:47:54.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ICategoryDal.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Abstract\\ICategoryDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstract\\ICategoryDal.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Abstract\\ICategoryDal.cs",
+              "RelativeToolTip": "DataAccess\\Abstract\\ICategoryDal.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T20:33:21.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "PlatformDisplayDto.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\DTOs\\PlatformDisplayDto.cs",
+              "RelativeDocumentMoniker": "Entities\\DTOs\\PlatformDisplayDto.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\DTOs\\PlatformDisplayDto.cs",
+              "RelativeToolTip": "Entities\\DTOs\\PlatformDisplayDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T18:54:30.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "PlatformProfile.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Profilers\\PlatformProfile.cs",
+              "RelativeDocumentMoniker": "Entities\\Profilers\\PlatformProfile.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Profilers\\PlatformProfile.cs",
+              "RelativeToolTip": "Entities\\Profilers\\PlatformProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T18:55:46.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "CategoryProfile.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Profilers\\CategoryProfile.cs",
+              "RelativeDocumentMoniker": "Entities\\Profilers\\CategoryProfile.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Profilers\\CategoryProfile.cs",
+              "RelativeToolTip": "Entities\\Profilers\\CategoryProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T20:50:03.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "EFPlatformDal.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Concrete\\EFPlatformDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EFPlatformDal.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Concrete\\EFPlatformDal.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EFPlatformDal.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAwCAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T18:34:08.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "Entities\\Category.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Category.cs",
+              "RelativeToolTip": "Entities\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T17:49:26.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "GameCategory.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\GameCategory.cs",
+              "RelativeDocumentMoniker": "Entities\\GameCategory.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\GameCategory.cs",
+              "RelativeToolTip": "Entities\\GameCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T14:00:12.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "IGameCategoryManager.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Abstract\\IGameCategoryManager.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IGameCategoryManager.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Abstract\\IGameCategoryManager.cs",
+              "RelativeToolTip": "Business\\Abstract\\IGameCategoryManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T16:46:36.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "PlatformController.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\ClouxApi\\Controllers\\PlatformController.cs",
+              "RelativeDocumentMoniker": "ClouxApi\\Controllers\\PlatformController.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\ClouxApi\\Controllers\\PlatformController.cs",
+              "RelativeToolTip": "ClouxApi\\Controllers\\PlatformController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAwDUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T19:04:26.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "LanguageController.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\ClouxApi\\Controllers\\LanguageController.cs",
+              "RelativeDocumentMoniker": "ClouxApi\\Controllers\\LanguageController.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\ClouxApi\\Controllers\\LanguageController.cs",
+              "RelativeToolTip": "ClouxApi\\Controllers\\LanguageController.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAowGsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T11:30:18.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "PlatformManager.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Concrete\\PlatformManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\PlatformManager.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Concrete\\PlatformManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\PlatformManager.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T18:42:16.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "IPlatformDal.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Abstract\\IPlatformDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstract\\IPlatformDal.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Abstract\\IPlatformDal.cs",
+              "RelativeToolTip": "DataAccess\\Abstract\\IPlatformDal.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T18:18:15.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "IPlatformManager.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Abstract\\IPlatformManager.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IPlatformManager.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Abstract\\IPlatformManager.cs",
+              "RelativeToolTip": "Business\\Abstract\\IPlatformManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T18:40:16.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Entities\\User.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\User.cs",
+              "RelativeToolTip": "Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T21:12:48.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "UserRegisterDto.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\DTOs\\UserRegisterDto.cs",
+              "RelativeDocumentMoniker": "Entities\\DTOs\\UserRegisterDto.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\DTOs\\UserRegisterDto.cs",
+              "RelativeToolTip": "Entities\\DTOs\\UserRegisterDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T07:16:46.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Profilers\\UserProfile.cs",
+              "RelativeDocumentMoniker": "Entities\\Profilers\\UserProfile.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Profilers\\UserProfile.cs",
+              "RelativeToolTip": "Entities\\Profilers\\UserProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T07:28:44.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Core.csproj",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Core\\Core.csproj",
+              "RelativeDocumentMoniker": "Core\\Core.csproj",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Core\\Core.csproj",
+              "RelativeToolTip": "Core\\Core.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-25T15:08:41.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "ClouxApi.csproj",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\ClouxApi\\ClouxApi.csproj",
+              "RelativeDocumentMoniker": "ClouxApi\\ClouxApi.csproj",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\ClouxApi\\ClouxApi.csproj",
+              "RelativeToolTip": "ClouxApi\\ClouxApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-09T20:40:14.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "20241229225750_smallphoto.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20241229225750_smallphoto.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20241229225750_smallphoto.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20241229225750_smallphoto.cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\20241229225750_smallphoto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T22:57:51.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "TokenManager.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Concrete\\TokenManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\TokenManager.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Concrete\\TokenManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\TokenManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T07:39:07.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "BlogController.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\ClouxApi\\Controllers\\BlogController.cs",
+              "RelativeDocumentMoniker": "ClouxApi\\Controllers\\BlogController.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\ClouxApi\\Controllers\\BlogController.cs",
+              "RelativeToolTip": "ClouxApi\\Controllers\\BlogController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAxwBsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T12:31:03.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "20240726212652_ndkkd.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240726212652_ndkkd.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20240726212652_ndkkd.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240726212652_ndkkd.cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\20240726212652_ndkkd.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T21:26:52.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 130,
+              "Title": "20240726211705_nsek.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240726211705_nsek.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20240726211705_nsek.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240726211705_nsek.cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\20240726211705_nsek.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T21:17:05.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "20240725142429_jdsk.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240725142429_jdsk.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20240725142429_jdsk.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240725142429_jdsk.cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\20240725142429_jdsk.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBAAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T14:24:29.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "ProductManager.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Concrete\\ProductManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\ProductManager.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Concrete\\ProductManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\ProductManager.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwCgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T14:16:16.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "IProductManager.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Abstract\\IProductManager.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IProductManager.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Abstract\\IProductManager.cs",
+              "RelativeToolTip": "Business\\Abstract\\IProductManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T14:14:58.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "EFProductDal.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Concrete\\EFProductDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EFProductDal.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Concrete\\EFProductDal.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EFProductDal.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAgwDsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T14:11:40.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "IProductDal.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Abstract\\IProductDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstract\\IProductDal.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Abstract\\IProductDal.cs",
+              "RelativeToolTip": "DataAccess\\Abstract\\IProductDal.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBJwBQAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T14:10:00.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\ClouxApi\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ClouxApi\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\ClouxApi\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ClouxApi\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAowGkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T14:19:30.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "ProductProfile.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Profilers\\ProductProfile.cs",
+              "RelativeDocumentMoniker": "Entities\\Profilers\\ProductProfile.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Profilers\\ProductProfile.cs",
+              "RelativeToolTip": "Entities\\Profilers\\ProductProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T14:08:22.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\DTOs\\ProductDto.cs",
+              "RelativeDocumentMoniker": "Entities\\DTOs\\ProductDto.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\DTOs\\ProductDto.cs",
+              "RelativeToolTip": "Entities\\DTOs\\ProductDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T14:07:27.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Entities\\Product.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Product.cs",
+              "RelativeToolTip": "Entities\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T14:05:33.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 127,
+              "Title": "20240725135808_jdsj.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240725135808_jdsj.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20240725135808_jdsj.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240725135808_jdsj.cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\20240725135808_jdsj.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T13:58:08.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "BlogInputDto.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\DTOs\\BlogInputDto.cs",
+              "RelativeDocumentMoniker": "Entities\\DTOs\\BlogInputDto.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\DTOs\\BlogInputDto.cs",
+              "RelativeToolTip": "Entities\\DTOs\\BlogInputDto.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T12:45:21.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "BlogProfile.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Profilers\\BlogProfile.cs",
+              "RelativeDocumentMoniker": "Entities\\Profilers\\BlogProfile.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Profilers\\BlogProfile.cs",
+              "RelativeToolTip": "Entities\\Profilers\\BlogProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T12:41:27.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "BlogDisplayDto.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\DTOs\\BlogDisplayDto.cs",
+              "RelativeDocumentMoniker": "Entities\\DTOs\\BlogDisplayDto.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\DTOs\\BlogDisplayDto.cs",
+              "RelativeToolTip": "Entities\\DTOs\\BlogDisplayDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T12:37:47.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "BlogManager.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Concrete\\BlogManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\BlogManager.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Concrete\\BlogManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\BlogManager.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAgwCwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T12:28:09.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "IBlogManager.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Abstract\\IBlogManager.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IBlogManager.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Abstract\\IBlogManager.cs",
+              "RelativeToolTip": "Business\\Abstract\\IBlogManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T12:26:12.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "Blog.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Blog.cs",
+              "RelativeDocumentMoniker": "Entities\\Blog.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Blog.cs",
+              "RelativeToolTip": "Entities\\Blog.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBJwA8AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T11:43:39.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "EFBlogDal.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Concrete\\EFBlogDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EFBlogDal.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Concrete\\EFBlogDal.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EFBlogDal.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAgwD8AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T12:21:13.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "IBlogDal.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Abstract\\IBlogDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstract\\IBlogDal.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Abstract\\IBlogDal.cs",
+              "RelativeToolTip": "DataAccess\\Abstract\\IBlogDal.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBJwBQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T12:19:11.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 128,
+              "Title": "20240725115230_jsj.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240725115230_jsj.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20240725115230_jsj.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240725115230_jsj.cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\20240725115230_jsj.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T11:52:30.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "BlogCategory.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\BlogCategory.cs",
+              "RelativeDocumentMoniker": "Entities\\BlogCategory.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\BlogCategory.cs",
+              "RelativeToolTip": "Entities\\BlogCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T11:49:39.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "Author.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Author.cs",
+              "RelativeDocumentMoniker": "Entities\\Author.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Author.cs",
+              "RelativeToolTip": "Entities\\Author.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T11:48:43.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 129,
+              "Title": "20240725112947_sa.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240725112947_sa.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20240725112947_sa.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240725112947_sa.cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\20240725112947_sa.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T11:29:47.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "LanguageManager.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Concrete\\LanguageManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\LanguageManager.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Concrete\\LanguageManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\LanguageManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T11:26:04.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "ILanguageManager.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Abstract\\ILanguageManager.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\ILanguageManager.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Abstract\\ILanguageManager.cs",
+              "RelativeToolTip": "Business\\Abstract\\ILanguageManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T11:24:55.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "EFLanguageDal.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Concrete\\EFLanguageDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EFLanguageDal.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Concrete\\EFLanguageDal.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EFLanguageDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T11:19:47.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "ILanguageDal.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Abstract\\ILanguageDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstract\\ILanguageDal.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Abstract\\ILanguageDal.cs",
+              "RelativeToolTip": "DataAccess\\Abstract\\ILanguageDal.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T11:18:08.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "20240724205654_p.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240724205654_p.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20240724205654_p.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240724205654_p.cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\20240724205654_p.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T20:56:54.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "CategoryInputDto.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\DTOs\\CategoryInputDto.cs",
+              "RelativeDocumentMoniker": "Entities\\DTOs\\CategoryInputDto.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\DTOs\\CategoryInputDto.cs",
+              "RelativeToolTip": "Entities\\DTOs\\CategoryInputDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T20:49:18.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "20240722191523_o.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240722191523_o.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20240722191523_o.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240722191523_o.cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\20240722191523_o.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T19:15:23.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "PlatformInputDto.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\DTOs\\PlatformInputDto.cs",
+              "RelativeDocumentMoniker": "Entities\\DTOs\\PlatformInputDto.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\DTOs\\PlatformInputDto.cs",
+              "RelativeToolTip": "Entities\\DTOs\\PlatformInputDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T19:08:27.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "SocialMediaManager.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Concrete\\SocialMediaManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\SocialMediaManager.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Concrete\\SocialMediaManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\SocialMediaManager.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAewBoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T16:49:14.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "ISocialMediaManager.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Abstract\\ISocialMediaManager.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\ISocialMediaManager.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Abstract\\ISocialMediaManager.cs",
+              "RelativeToolTip": "Business\\Abstract\\ISocialMediaManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T16:48:53.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "EFSocialMediaDal.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Concrete\\EFSocialMediaDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EFSocialMediaDal.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Concrete\\EFSocialMediaDal.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EFSocialMediaDal.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T16:46:36.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "SMDisplayDTO.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\DTOs\\SMDisplayDTO.cs",
+              "RelativeDocumentMoniker": "Entities\\DTOs\\SMDisplayDTO.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\DTOs\\SMDisplayDTO.cs",
+              "RelativeToolTip": "Entities\\DTOs\\SMDisplayDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T16:58:26.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "SMProfile.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Profilers\\SMProfile.cs",
+              "RelativeDocumentMoniker": "Entities\\Profilers\\SMProfile.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Profilers\\SMProfile.cs",
+              "RelativeToolTip": "Entities\\Profilers\\SMProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T16:59:37.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "SMInputDTO.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\DTOs\\SMInputDTO.cs",
+              "RelativeDocumentMoniker": "Entities\\DTOs\\SMInputDTO.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\DTOs\\SMInputDTO.cs",
+              "RelativeToolTip": "Entities\\DTOs\\SMInputDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T20:26:20.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "ISocialMediaDal.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Abstract\\ISocialMediaDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstract\\ISocialMediaDal.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Abstract\\ISocialMediaDal.cs",
+              "RelativeToolTip": "DataAccess\\Abstract\\ISocialMediaDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T16:45:23.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 123,
+              "Title": "20240717164135_i.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240717164135_i.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20240717164135_i.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240717164135_i.cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\20240717164135_i.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T16:41:35.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 124,
+              "Title": "20240717150015_u.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240717150015_u.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20240717150015_u.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240717150015_u.cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\20240717150015_u.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T15:00:15.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 125,
+              "Title": "20240717143432_y.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240717143432_y.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20240717143432_y.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240717143432_y.cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\20240717143432_y.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T14:34:32.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "SocialMedia.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\SocialMedia.cs",
+              "RelativeDocumentMoniker": "Entities\\SocialMedia.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\SocialMedia.cs",
+              "RelativeToolTip": "Entities\\SocialMedia.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T20:24:03.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 126,
+              "Title": "20240717101445_t.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240717101445_t.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20240717101445_t.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240717101445_t.cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\20240717101445_t.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T10:14:45.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "GameCategoryManager.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Concrete\\GameCategoryManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\GameCategoryManager.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Concrete\\GameCategoryManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\GameCategoryManager.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAIA2wBsAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T16:47:31.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "IGameCategoryDal.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Abstract\\IGameCategoryDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstract\\IGameCategoryDal.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Abstract\\IGameCategoryDal.cs",
+              "RelativeToolTip": "DataAccess\\Abstract\\IGameCategoryDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T16:42:46.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "20240715180508_r.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240715180508_r.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20240715180508_r.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240715180508_r.cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\20240715180508_r.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAYwEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T18:05:08.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "EFEntityRepositary.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Core\\DataAccess\\EF\\EFEntityRepositary.cs",
+              "RelativeDocumentMoniker": "Core\\DataAccess\\EF\\EFEntityRepositary.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Core\\DataAccess\\EF\\EFEntityRepositary.cs",
+              "RelativeToolTip": "Core\\DataAccess\\EF\\EFEntityRepositary.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T17:33:18.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 114,
+              "Title": "20240711200816_g.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240711200816_g.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20240711200816_g.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240711200816_g.cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\20240711200816_g.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBUAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T20:08:16.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 122,
               "Title": "20240711101646_d.cs",
               "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240711101646_d.cs",
               "RelativeDocumentMoniker": "DataAccess\\Migrations\\20240711101646_d.cs",
@@ -123,179 +2151,35 @@
               "RelativeToolTip": "DataAccess\\Migrations\\20240711101646_d.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T10:16:47.096Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T10:16:47.096Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Game.cs",
-              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Game.cs",
-              "RelativeDocumentMoniker": "Entities\\Game.cs",
-              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Game.cs",
-              "RelativeToolTip": "Entities\\Game.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAsAAAA",
+              "DocumentIndex": 121,
+              "Title": "20240711104840_f.cs",
+              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240711104840_f.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20240711104840_f.cs",
+              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240711104840_f.cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\20240711104840_f.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T16:02:23.923Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T10:48:40.296Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GameController.cs",
-              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\ClouxApi\\Controllers\\GameController.cs",
-              "RelativeDocumentMoniker": "ClouxApi\\Controllers\\GameController.cs",
-              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\ClouxApi\\Controllers\\GameController.cs",
-              "RelativeToolTip": "ClouxApi\\Controllers\\GameController.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAgwDoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T16:18:56.904Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IGameManager.cs",
-              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Abstract\\IGameManager.cs",
-              "RelativeDocumentMoniker": "Business\\Abstract\\IGameManager.cs",
-              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Abstract\\IGameManager.cs",
-              "RelativeToolTip": "Business\\Abstract\\IGameManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T16:07:50.864Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GameListProfile.cs",
-              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Profilers\\GameListProfile.cs",
-              "RelativeDocumentMoniker": "Entities\\Profilers\\GameListProfile.cs",
-              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Profilers\\GameListProfile.cs",
-              "RelativeToolTip": "Entities\\Profilers\\GameListProfile.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T19:27:57.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GameOutDTO.cs",
-              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\DTOs\\GameOutDTO.cs",
-              "RelativeDocumentMoniker": "Entities\\DTOs\\GameOutDTO.cs",
-              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\DTOs\\GameOutDTO.cs",
-              "RelativeToolTip": "Entities\\DTOs\\GameOutDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T19:22:48.44Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EFGameDal.cs",
-              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Concrete\\EFGameDal.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EFGameDal.cs",
-              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Concrete\\EFGameDal.cs",
-              "RelativeToolTip": "DataAccess\\Concrete\\EFGameDal.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAqwBkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T15:50:16.987Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ClouxDbContext.cs",
-              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Concrete\\ClouxDbContext.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Concrete\\ClouxDbContext.cs",
-              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Concrete\\ClouxDbContext.cs",
-              "RelativeToolTip": "DataAccess\\Concrete\\ClouxDbContext.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T17:49:49.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IGameDal.cs",
-              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Abstract\\IGameDal.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Abstract\\IGameDal.cs",
-              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Abstract\\IGameDal.cs",
-              "RelativeToolTip": "DataAccess\\Abstract\\IGameDal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T15:49:42.736Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Platform.cs",
-              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Platform.cs",
-              "RelativeDocumentMoniker": "Entities\\Platform.cs",
-              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Platform.cs",
-              "RelativeToolTip": "Entities\\Platform.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T10:04:45.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Category.cs",
-              "RelativeDocumentMoniker": "Entities\\Category.cs",
-              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Entities\\Category.cs",
-              "RelativeToolTip": "Entities\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T17:49:26.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\ClouxApi\\Program.cs",
-              "RelativeDocumentMoniker": "ClouxApi\\Program.cs",
-              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\ClouxApi\\Program.cs",
-              "RelativeToolTip": "ClouxApi\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T21:01:17.555Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Concrete\\GameManager.cs",
-              "RelativeDocumentMoniker": "Business\\Concrete\\GameManager.cs",
-              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\Business\\Concrete\\GameManager.cs",
-              "RelativeToolTip": "Business\\Concrete\\GameManager.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCAAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T16:11:04.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 119,
               "Title": "20240710174306_s.cs",
               "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240710174306_s.cs",
               "RelativeDocumentMoniker": "DataAccess\\Migrations\\20240710174306_s.cs",
               "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240710174306_s.cs",
               "RelativeToolTip": "DataAccess\\Migrations\\20240710174306_s.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-10T17:43:06.79Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 120,
               "Title": "20240710173014_c.cs",
               "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240710173014_c.cs",
               "RelativeDocumentMoniker": "DataAccess\\Migrations\\20240710173014_c.cs",
@@ -307,7 +2191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 117,
               "Title": "20240709185400_a.cs",
               "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240709185400_a.cs",
               "RelativeDocumentMoniker": "DataAccess\\Migrations\\20240709185400_a.cs",
@@ -319,7 +2203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 116,
               "Title": "20240709190404_b.cs",
               "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240709190404_b.cs",
               "RelativeDocumentMoniker": "DataAccess\\Migrations\\20240709190404_b.cs",
@@ -331,19 +2215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ClouxApi.csproj",
-              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\ClouxApi\\ClouxApi.csproj",
-              "RelativeDocumentMoniker": "ClouxApi\\ClouxApi.csproj",
-              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\ClouxApi\\ClouxApi.csproj",
-              "RelativeToolTip": "ClouxApi\\ClouxApi.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-09T20:40:14.965Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 118,
               "Title": "20240709175150_add.cs",
               "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240709175150_add.cs",
               "RelativeDocumentMoniker": "DataAccess\\Migrations\\20240709175150_add.cs",
@@ -355,7 +2227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 115,
               "Title": "20240709173816_update.cs",
               "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\DataAccess\\Migrations\\20240709173816_update.cs",
               "RelativeDocumentMoniker": "DataAccess\\Migrations\\20240709173816_update.cs",
@@ -364,18 +2236,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-09T17:38:16.529Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Programming\\C# projects\\Cloux-api\\ClouxApi\\appsettings.json",
-              "RelativeDocumentMoniker": "ClouxApi\\appsettings.json",
-              "ToolTip": "D:\\Programming\\C# projects\\Cloux-api\\ClouxApi\\appsettings.json",
-              "RelativeToolTip": "ClouxApi\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-08T20:57:49.246Z"
             }
           ]
         }

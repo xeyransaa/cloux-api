@@ -13,31 +13,49 @@ namespace ClouxApi.Controllers
     public class GameController : ControllerBase
     {
         private readonly IGameManager _gameManager;
+        private readonly IGameCategoryManager _gameCategoryManager;
+        private readonly IGamePlatformManager _gamePlatformManager;
+        private readonly IGameLanguageTypeLManager _gameLanguageTypeLManager;
+        private readonly IGameDeveloperManager _gameDeveloperManager;
         private readonly IMapper _mapper;
 
-        public GameController(IGameManager gameManager, IMapper mapper)
+        public GameController(IGameManager gameManager, IMapper mapper, IGameCategoryManager gameCategoryManager, IGamePlatformManager gamePlatformManager, IGameLanguageTypeLManager gameLanguageTypeLManager, IGameDeveloperManager gameDeveloperManager)
         {
             _gameManager = gameManager;
             _mapper = mapper;
+            _gameCategoryManager = gameCategoryManager;
+            _gamePlatformManager = gamePlatformManager;
+            _gameLanguageTypeLManager = gameLanguageTypeLManager;
+            _gameDeveloperManager = gameDeveloperManager;
         }
 
         // GET: api/<GameController>
         [HttpGet]
 
-        public List<GameOutDTO> GetGames()
+        public List<GameDisplayDTO> GetGames()
         {
             var games = _gameManager.GetAllGames();
-            var gameList = _mapper.Map<List<GameOutDTO>>(games);
+            var gameList = _mapper.Map<List<GameDisplayDTO>>(games);
+            return gameList;
+
+        }
+
+        [HttpGet("page")]
+
+        public List<GameDisplayDTO> GetGamesByPage(int pageNumber, int gamesPerPage)
+        {
+            var games = _gameManager.GetGamesByPage(pageNumber, gamesPerPage);
+            var gameList = _mapper.Map<List<GameDisplayDTO>>(games);
             return gameList;
 
         }
 
         [HttpGet("featured")]
 
-        public List<GameOutDTO> GetFeaturedGames()
+        public List<GameDisplayDTO> GetFeaturedGames()
         {
             var games = _gameManager.GetFeaturedGames();
-            var gameList = _mapper.Map<List<GameOutDTO>>(games);
+            var gameList = _mapper.Map<List<GameDisplayDTO>>(games);
             return gameList;
 
         }
@@ -53,21 +71,65 @@ namespace ClouxApi.Controllers
                 return res;
             }
             var game = await _gameManager.GetById(id.Value);
-            var gameDto = _mapper.Map<GameOutDTO>(game);
+            var gameDto = _mapper.Map<GameDisplayDTO>(game);
             res.Value = new { status = 200, data = gameDto };
             return res;
         }
-        
+
         // POST api/<GameController>
         [HttpPost]
 
-        public JsonResult Add(Game game)
+        public JsonResult Add(GameInputDTO game)
         {
             JsonResult res = new(new { });
             try
             {
-                _gameManager.Add(game);
-                res.Value = new { status = 201, message = "game created succesfully" };
+                var createdGame = _mapper.Map<Game>(game);
+
+                _gameManager.Add(createdGame);
+                foreach (var id in game.CategoryIds)
+                {
+                    var gameCategory = new GameCategory
+                    {
+                        GameId = createdGame.Id,
+                        CategoryId = id
+                    };
+                    _gameCategoryManager.Add(gameCategory);
+
+
+                }
+
+                foreach (var id in game.PlatformIds)
+                {
+                    var gamePlatform = new GamePlatform
+                    {
+                        GameId = createdGame.Id,
+                        PlatformId = id
+                    };
+                    _gamePlatformManager.Add(gamePlatform);
+                    
+                }
+                foreach (var id in game.LanguageTypeLIds)
+                {
+                    var gameLanguageTypeL = new GameLanguageTypeL
+                    {
+                        GameId = createdGame.Id,
+                        LanguageTypeLId = id
+                    };
+                    _gameLanguageTypeLManager.Add(gameLanguageTypeL);
+
+                }
+                foreach (var id in game.DeveloperIds)
+                {
+                    var gameDeveloper = new GameDeveloper
+                    {
+                        GameId = createdGame.Id,
+                        DeveloperId = id
+                    };
+                    _gameDeveloperManager.Add(gameDeveloper);
+
+                }
+                res.Value = new { status = 201, message = "Game created succesfully"};
                 return res;
             }
             catch (Exception)
@@ -82,7 +144,7 @@ namespace ClouxApi.Controllers
 
         // PUT api/<GameController>/5
         [HttpPut("{id}")]
-        public JsonResult Put(int? id, [FromBody] Game game)
+        public JsonResult Put(int? id, [FromBody] GameInputDTO game)
         {
 
             JsonResult res = new(new { });
@@ -91,12 +153,27 @@ namespace ClouxApi.Controllers
                 res.Value = new { status = 403, message = "Id is required" };
                 return res;
             };
-            _gameManager.Update(id.Value, game);
+            var updatedGame = _mapper.Map<Game>(game);
+            _gameManager.Update(id.Value, updatedGame);
+
+            
+            _gameCategoryManager.Update(game.CategoryIds, id.Value);
+
+            _gamePlatformManager.Update(game.PlatformIds, id.Value);
+            _gameDeveloperManager.Update(game.DeveloperIds, id.Value);
+            _gameLanguageTypeLManager.Update(game.LanguageTypeLIds, id.Value);
+
             res.Value = new { status = 200, message = "Successfully updated" };
             return res;
         }
 
         // DELETE api/<GameController>/5
-        
+
+        [HttpDelete("{id}")]
+        public void Delete(int id)
+        {
+            _gameManager.Remove(id);
+        }
+
     }
 }

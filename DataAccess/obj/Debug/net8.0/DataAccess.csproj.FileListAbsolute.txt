@@ -17,3 +17,4 @@ D:\Programming\C# projects\Cloux-api\DataAccess\obj\Debug\net8.0\refint\DataAcce
 D:\Programming\C# projects\Cloux-api\DataAccess\obj\Debug\net8.0\DataAccess.pdb
 D:\Programming\C# projects\Cloux-api\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
 D:\Programming\C# projects\Cloux-api\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+D:\Programming\C# projects\Cloux-api\DataAccess\obj\Debug\net8.0\DataAccess.sourcelink.json

@@ -17,3 +17,4 @@ D:\Programming\C# projects\Cloux-api\Business\bin\Debug\net8.0\Entities.pdb
 D:\Programming\C# projects\Cloux-api\Business\bin\Debug\net8.0\Core.pdb
 D:\Programming\C# projects\Cloux-api\Business\obj\Debug\net8.0\Business.csproj.AssemblyReference.cache
 D:\Programming\C# projects\Cloux-api\Business\obj\Debug\net8.0\Business.csproj.Up2Date
+D:\Programming\C# projects\Cloux-api\Business\obj\Debug\net8.0\Business.sourcelink.json

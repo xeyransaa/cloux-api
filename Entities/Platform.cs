@@ -6,6 +6,7 @@ namespace Entities
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public List<Game>? Games { get; set; }
+        public List<GamePlatform>? GamePlatforms { get; set; }
+        public bool IsDeleted { get; set; }
     }
 }

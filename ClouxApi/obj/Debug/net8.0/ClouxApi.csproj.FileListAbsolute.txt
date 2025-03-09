@@ -88,3 +88,5 @@ D:\Programming\C# projects\Cloux-api\ClouxApi\bin\Debug\net8.0\Newtonsoft.Json.d
 D:\Programming\C# projects\Cloux-api\ClouxApi\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 D:\Programming\C# projects\Cloux-api\ClouxApi\bin\Debug\net8.0\System.Text.Json.dll
 D:\Programming\C# projects\Cloux-api\ClouxApi\bin\Debug\net8.0\AutoMapper.dll
+D:\Programming\C# projects\Cloux-api\ClouxApi\obj\Debug\net8.0\ClouxApi.sourcelink.json
+D:\Programming\C# projects\Cloux-api\ClouxApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -14,6 +14,7 @@ namespace Business.Abstract
         void Remove(int id);
         Task<Game> GetById(int gameId);
         List<Game> GetAllGames();
+        List<Game> GetGamesByPage(int pageNumber, int gamesPerPage);
 
         List<Game> GetFeaturedGames();
     }

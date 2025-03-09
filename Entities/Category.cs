@@ -6,6 +6,7 @@ namespace Entities
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public virtual List<Game>? Games { get; set; }
+        public virtual List<GameCategory>? GameCategories { get; set; }
+        public bool IsDeleted { get; set; }
     }
 }

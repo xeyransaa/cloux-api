@@ -12,15 +12,25 @@ namespace Entities.Profilers
     {
         public GameListProfile()
         {
-            CreateMap<Game, GameOutDTO>()
+            CreateMap<Game, GameDisplayDTO>()
                 .ForMember(
                     dest => dest.CategoryNames,
-                    opt => opt.MapFrom(src => src.Categories.Select(c => c.Name).ToList())
+                    opt => opt.MapFrom(src => src.GameCategories.Select(gc => gc.Category.Name).ToList())
                     )
                 .ForMember(
                     dest => dest.PlatformNames,
-                    opt => opt.MapFrom(src => src.Platforms.Select(c => c.Name).ToList())
-                    );
+                    opt => opt.MapFrom(src => src.GamePlatforms.Select(c => c.Platform.Name).ToList())
+                    )
+                .ForMember(
+                    dest => dest.DeveloperNames,
+                    opt => opt.MapFrom(src => src.GameDevelopers.Select(d => d.Developer.Name).ToList())
+                    )
+                .ForMember(
+                    dest => dest.LanguageDtos,
+                    opt => opt.MapFrom(src => src.GameLanguageTypeLs.Select(d => d.LanguageTypeL.Language).ToList())
+                    )
+                ;
+
 
 
 

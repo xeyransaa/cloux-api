@@ -13,3 +13,4 @@ D:\Programming\C# projects\Cloux-api\Entities\obj\Debug\net8.0\Entities.dll
 D:\Programming\C# projects\Cloux-api\Entities\obj\Debug\net8.0\refint\Entities.dll
 D:\Programming\C# projects\Cloux-api\Entities\obj\Debug\net8.0\Entities.pdb
 D:\Programming\C# projects\Cloux-api\Entities\obj\Debug\net8.0\ref\Entities.dll
+D:\Programming\C# projects\Cloux-api\Entities\obj\Debug\net8.0\Entities.sourcelink.json
